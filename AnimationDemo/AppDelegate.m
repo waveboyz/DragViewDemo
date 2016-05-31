@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "EntranceController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,8 +19,10 @@
     // Override point for customization after application launch.
     _window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     _window.backgroundColor=[UIColor whiteColor];
-    ViewController *vc = [[ViewController alloc] init];
-    _window.rootViewController = vc;
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[EntranceController alloc] init]];
+    _window.rootViewController = nav;
+    
     [_window makeKeyAndVisible];
     
     return YES;

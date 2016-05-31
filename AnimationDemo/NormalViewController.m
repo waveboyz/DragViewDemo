@@ -1,23 +1,22 @@
 //
-//  ViewController.m
+//  NormalViewController.m
 //  AnimationDemo
 //
-//  Created by 周翔 on 16/5/30.
+//  Created by 周翔 on 16/5/31.
 //  Copyright © 2016年 周翔. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "NormalViewController.h"
 #import "TouchView.h"
 
-@interface ViewController ()
+@interface NormalViewController ()
 @property (nonatomic, strong) TouchView      *layer;
 @property (nonatomic)   CGRect          windowFrame;
 @end
 
-@implementation ViewController
+@implementation NormalViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
     _windowFrame = self.view.frame;
@@ -37,21 +36,9 @@
             _layer = [[TouchView alloc] initWithFrame:CGRectMake(0, 0, 120, 120)];
             _layer.fatherView = self.view;
             _layer.center = self.view.center;
-            [[[UIApplication sharedApplication] keyWindow] addSubview:_layer];
+            [self.view addSubview:_layer];
         });
     }
 }
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [self.layer removeFromSuperview];
-    self.layer = nil;
-}
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-//{
-//    NSLog(@"touching began!");
-//}
-
-
 
 @end

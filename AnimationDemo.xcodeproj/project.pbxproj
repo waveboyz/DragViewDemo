@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2726E466C84D033A13F4C7DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEE7B4EB5303BB147D731FA /* libPods.a */; };
+		82978F611CFD6B5000EBD59F /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82978F601CFD6B5000EBD59F /* NormalViewController.m */; };
 		82AB3B021CFBDCD800980D77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB3B011CFBDCD800980D77 /* main.m */; };
 		82AB3B051CFBDCD800980D77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB3B041CFBDCD800980D77 /* AppDelegate.m */; };
 		82AB3B081CFBDCD800980D77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB3B071CFBDCD800980D77 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 		82AB3B1B1CFBDCD800980D77 /* AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB3B1A1CFBDCD800980D77 /* AnimationDemoTests.m */; };
 		82AB3B261CFBDCD800980D77 /* AnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB3B251CFBDCD800980D77 /* AnimationDemoUITests.m */; };
 		82AB3B351CFD321300980D77 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB3B341CFD321300980D77 /* TouchView.m */; };
+		82AB3B3C1CFD697700980D77 /* EntranceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB3B3A1CFD697700980D77 /* EntranceController.m */; };
+		82AB3B3D1CFD697700980D77 /* EntranceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AB3B3B1CFD697700980D77 /* EntranceController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		3711EB92FC363C3B387E02F8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		82978F5F1CFD6B5000EBD59F /* NormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		82978F601CFD6B5000EBD59F /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
 		82AB3AFD1CFBDCD800980D77 /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AB3B011CFBDCD800980D77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82AB3B031CFBDCD800980D77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +61,9 @@
 		82AB3B271CFBDCD800980D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82AB3B331CFD321300980D77 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
 		82AB3B341CFD321300980D77 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		82AB3B391CFD697700980D77 /* EntranceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntranceController.h; sourceTree = "<group>"; };
+		82AB3B3A1CFD697700980D77 /* EntranceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntranceController.m; sourceTree = "<group>"; };
+		82AB3B3B1CFD697700980D77 /* EntranceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntranceController.xib; sourceTree = "<group>"; };
 		BEEE7B4EB5303BB147D731FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE57778C6516EE56F854752A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +129,11 @@
 			children = (
 				82AB3B031CFBDCD800980D77 /* AppDelegate.h */,
 				82AB3B041CFBDCD800980D77 /* AppDelegate.m */,
+				82AB3B391CFD697700980D77 /* EntranceController.h */,
+				82AB3B3A1CFD697700980D77 /* EntranceController.m */,
+				82AB3B3B1CFD697700980D77 /* EntranceController.xib */,
+				82978F5F1CFD6B5000EBD59F /* NormalViewController.h */,
+				82978F601CFD6B5000EBD59F /* NormalViewController.m */,
 				82AB3B061CFBDCD800980D77 /* ViewController.h */,
 				82AB3B071CFBDCD800980D77 /* ViewController.m */,
 				82AB3B331CFD321300980D77 /* TouchView.h */,
@@ -279,6 +292,7 @@
 				82AB3B101CFBDCD800980D77 /* LaunchScreen.storyboard in Resources */,
 				82AB3B0D1CFBDCD800980D77 /* Assets.xcassets in Resources */,
 				82AB3B0B1CFBDCD800980D77 /* Main.storyboard in Resources */,
+				82AB3B3D1CFD697700980D77 /* EntranceController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +369,8 @@
 				82AB3B081CFBDCD800980D77 /* ViewController.m in Sources */,
 				82AB3B051CFBDCD800980D77 /* AppDelegate.m in Sources */,
 				82AB3B021CFBDCD800980D77 /* main.m in Sources */,
+				82AB3B3C1CFD697700980D77 /* EntranceController.m in Sources */,
+				82978F611CFD6B5000EBD59F /* NormalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
